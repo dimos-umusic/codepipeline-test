@@ -11,7 +11,7 @@ namespace codepipeline_test.Tests
         public void TestMethod1()
         {
             int a = 1;
-            Assert.That(a == 1);
+            Assert.AreEqual(a, 1);
         }
     }
 }
